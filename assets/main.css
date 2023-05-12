@@ -41,7 +41,7 @@ body {
   .banner, .article {
     background-color: #efefef;
     height: 10em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
   }
   .header {
     display: flex;
@@ -220,6 +220,9 @@ body {
     display: flex;
     background-color:#C1DCDC;
     padding: 40px;
+   border-top-left-radius:  14px;
+   border-top-right-radius:  14px;
+
 }
 .category_card{
     flex: 1;
@@ -235,10 +238,13 @@ body {
 .category_down{
     background-color:#C1DCDC;
     padding-bottom: 80px;
+    border-bottom-left-radius:  14px;
+    border-bottom-right-radius:  14px;
 }
 .category_down p{
     font-style: italic;
     font-weight: 400;
+    
 }
 .btn_next-cart{
     background-color: #fff;
